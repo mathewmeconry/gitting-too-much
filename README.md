@@ -22,3 +22,4 @@ This server exposes a git repo publicly and is therefor vulnerable to a source c
 - Remove config file to reduce automated detections
 - Remove HEAD file to reduce automated detection and force the user to create the HEAD file again
 - Mess even more with the .git folder to make it harded
+- Create fake php backend to confuse the attack that it could be an SQLi or something similar
